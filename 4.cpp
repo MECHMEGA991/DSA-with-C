@@ -1,6 +1,6 @@
 #include<iostream>
 
-// Binary search 
+// linear search 
 
 using namespace std;
 
