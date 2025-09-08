@@ -1,0 +1,93 @@
+#include<iostream>
+
+using namespace std;
+
+class Bank {
+    
+  private:
+  
+  string name;
+  int account;
+  double money;
+  
+  public:
+  
+  void details(){
+      
+      cout<<"Enter Your name =";
+      cin>>string;
+      cout<<"Enter your Account Number =";
+      cin>>account;
+      cout<<"Enter your Amount =";
+      cin>>balance;
+      
+      
+  }
+  
+  void credit(){
+      int addmoney;
+      cout<<"Enter the amount you want to credit =";
+      cin>>addmoney;
+      balance=balance+addmoney;
+      cout<<"After credit Your balance ="<<balance;
+      
+  }
+  
+  void debit(){
+      
+      int submoney;
+      cout<<"Enter Amount You want to debit =";
+      cin>>submoney;
+      balance=balance-submoney;
+      cout<<"After debit Your Balance ="<<balance;
+      
+  }
+    void display(){
+        
+        cout<<"------Your Details--------"<<endl;
+        cout<<"Name="<<name<<endl;
+        cout<<"Account Number ="<<account<<endl;
+        cout<<"Balance ="<<balance<<endl;
+    }
+    
+    
+};
+
+
+
+int main(){
+    int choice;
+    
+    cout<<"---------Bank ACCOUNT DETAILS-----------"<<endl;
+    
+    while(choice!=0){
+        
+        switch{
+            
+            case 1:
+            c
+            
+            
+            
+            
+            
+            
+            
+            
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+    
+    
+    
+    return 0;
+}
